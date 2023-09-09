@@ -19,7 +19,7 @@ public class IndexController {
                 "It is pitch dark. You are likely to be eaten by a grue.");
         int random = (int)(Math.floor(Math.random() * 4));
         model.addAttribute("indexmessage", stringList.get(random));
-        model.addAttribute("link", "https://www.google.com.sg/");
+        model.addAttribute("link", "https://github.com/yizhuangtan/myrepo");
         return "index";
 
     }
