@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+ <meta charset="UTF-8">
+ <title>INDEX HTML</title>
+</head>
+<body>
+<img th:src="@{/images/myImage.png}" />'
+<h1 th:text="${indexmessage}"></h1>
+<h1> Repository:
+ <a th:href="@{${link}}" th:text="${link}">view</a>
+</h1>
+</body>
+</html>
